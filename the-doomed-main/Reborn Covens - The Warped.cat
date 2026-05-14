@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="ba3f-3a92-8198-9a82" name="Reborn Covens - The Warped" gameSystemId="5b56-6647-f481-1827" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="false" name="Exemplar" hidden="false" id="a840-d70c-53b0-85fd" sortIndex="0">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="7900-3a65-954-6e62" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Exemplar" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="46aa-4bc7-e5f0-a838">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Reborn Advancements" hidden="false" id="baab-cb50-7268-8d28" type="selectionEntryGroup" targetId="1526-d778-20aa-eba3" collapsible="true" sortIndex="2"/>
+        <entryLink import="true" name="Reborn Gear" hidden="false" id="3abe-769c-fc08-11aa" type="selectionEntryGroup" targetId="019b-9531-75f8-0dac" sortIndex="3"/>
+        <entryLink import="true" name="All Mods" hidden="false" id="ae10-387a-079f-6739" type="selectionEntryGroup" targetId="3575-f3ff-8fe0-3e28" sortIndex="4"/>
+        <entryLink import="true" name="Reward Upgrades" hidden="false" id="5701-8a17-5e44-83d9" type="selectionEntryGroup" targetId="0eeb-8c08-7b87-8a63" sortIndex="6"/>
+        <entryLink import="true" name="All advancements" hidden="false" id="d1ad-5eff-e3c7-a2a9" type="selectionEntryGroup" targetId="964d-3cdf-4b18-73f6" sortIndex="7"/>
+        <entryLink import="true" name="Event Effects" hidden="false" id="6eea-389c-5761-6dbe" type="selectionEntryGroup" targetId="9095-8b5e-cb87-3794" sortIndex="8"/>
+        <entryLink import="true" name="Base" hidden="false" id="c6c0-cd06-d551-4a78" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="62ab-3cb2-f63a-b698" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Fierce" hidden="false" id="867f-586f-340b-7c7c" type="selectionEntry" targetId="65b8-e423-f62c-76d1" defaultAmount="1" collective="true">
+              <costs>
+                <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Protector" hidden="false" id="2e2d-ce43-b9a9-9159" defaultAmount="1">
+              <rules>
+                <rule name="Protector" id="2712-e284-436-4a4e" hidden="false">
+                  <description>At the end of the unit&apos;s Turn, choose one Ally you can see. All Enemies touching that unit are Exhausted.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="32f6-d329-1f90-9f57"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5f23-7494-8140-1f0a"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="All Other Gear" id="857e-ff57-a7a7-67c6" hidden="false" sortIndex="5">
+          <entryLinks>
+            <entryLink import="true" name="Inheritor Gear" hidden="false" id="d4a6-2d14-5ab2-24a6" type="selectionEntryGroup" targetId="d270-6b3b-910d-d84d"/>
+            <entryLink import="true" name="Martyr Gear" hidden="false" id="a24c-27cd-a40b-ad59" type="selectionEntryGroup" targetId="3b42-5efe-0950-7425"/>
+            <entryLink import="true" name="Exile Gear" hidden="false" id="38d2-3bd4-4c1d-1fd0" type="selectionEntryGroup" targetId="578e-02c6-ac7c-d609"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Visionary" hidden="false" id="9690-914e-f7cb-da43" sortIndex="0">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="8ff9-4931-1ec3-5c0a" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Visionary" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="a1aa-1c77-611b-f0a1">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="9c4e-16a1-6b5d-f924" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Advancements" hidden="false" id="d2db-d3c9-3eaf-0755" type="selectionEntryGroup" targetId="1526-d778-20aa-eba3" collapsible="true" sortIndex="2"/>
+        <entryLink import="true" name="Reborn Gear" hidden="false" id="be2d-6c7f-1102-369d" type="selectionEntryGroup" targetId="019b-9531-75f8-0dac" sortIndex="3"/>
+        <entryLink import="true" name="All Mods" hidden="false" id="4e9f-5052-6395-00d5" type="selectionEntryGroup" targetId="3575-f3ff-8fe0-3e28" sortIndex="4"/>
+        <entryLink import="true" name="Reward Upgrades" hidden="false" id="2a96-95c6-e743-901b" type="selectionEntryGroup" targetId="0eeb-8c08-7b87-8a63" sortIndex="6"/>
+        <entryLink import="true" name="All advancements" hidden="false" id="27ff-2968-bd4a-acd5" type="selectionEntryGroup" targetId="964d-3cdf-4b18-73f6" sortIndex="7"/>
+        <entryLink import="true" name="Event Effects" hidden="false" id="a695-c76d-f717-2b71" type="selectionEntryGroup" targetId="9095-8b5e-cb87-3794" sortIndex="8"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="bae8-471b-6cfa-5baf" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Cloak" hidden="false" id="5431-7220-5079-6553" type="selectionEntry" targetId="a65e-4d40-c9a9-fae7" defaultAmount="1" collective="true">
+              <costs>
+                <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Unveil" hidden="false" id="8c07-b1bd-ce96-13e2" defaultAmount="1">
+              <rules>
+                <rule name="Onslaught" id="024d-ed3f-3c53-40e5" hidden="false">
+                  <description>At the end of the unit&apos;s Turn, any Enemies touching the unit take d6 Damage.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37c0-351d-c2f2-668c"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="819b-4fc0-c4cc-36c2"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="All Other Gear" id="ec09-6606-52a6-0c33" hidden="false" sortIndex="5">
+          <entryLinks>
+            <entryLink import="true" name="Inheritor Gear" hidden="false" id="95a7-32f6-23bb-3338" type="selectionEntryGroup" targetId="d270-6b3b-910d-d84d"/>
+            <entryLink import="true" name="Martyr Gear" hidden="false" id="6deb-b0fc-4a3e-4047" type="selectionEntryGroup" targetId="3b42-5efe-0950-7425"/>
+            <entryLink import="true" name="Exile Gear" hidden="false" id="8d26-d84b-6a44-0d81" type="selectionEntryGroup" targetId="578e-02c6-ac7c-d609"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Host" hidden="false" id="5747-dd66-8af-e0c5" sortIndex="0">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="f2db-c2a5-30ad-e1a5" primary="true" name="Leader"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Host" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="12c2-1f3a-ed6d-dd85">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="1e96-1285-eca1-0801" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Advancements" hidden="false" id="eab2-22d1-93db-5433" type="selectionEntryGroup" targetId="1526-d778-20aa-eba3" collapsible="true" sortIndex="2"/>
+        <entryLink import="true" name="Reborn Gear" hidden="false" id="80e0-bc98-94df-98b2" type="selectionEntryGroup" targetId="019b-9531-75f8-0dac" sortIndex="3"/>
+        <entryLink import="true" name="All Mods" hidden="false" id="587b-9016-5bdc-b1a9" type="selectionEntryGroup" targetId="3575-f3ff-8fe0-3e28" sortIndex="4"/>
+        <entryLink import="true" name="Reward Upgrades" hidden="false" id="cbcf-0395-2c9e-0363" type="selectionEntryGroup" targetId="0eeb-8c08-7b87-8a63" sortIndex="6"/>
+        <entryLink import="true" name="All advancements" hidden="false" id="5597-bf3e-a0b9-497f" type="selectionEntryGroup" targetId="964d-3cdf-4b18-73f6" sortIndex="7"/>
+        <entryLink import="true" name="Event Effects" hidden="false" id="0116-6171-3cbf-ad3c" type="selectionEntryGroup" targetId="9095-8b5e-cb87-3794" sortIndex="8"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="0fc2-c32f-dc3d-2ded" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Nimble" hidden="false" id="71a7-82ba-e1bb-e7bd" type="selectionEntry" targetId="f4ec-ee6a-34ff-5fee" defaultAmount="1" collective="true">
+              <costs>
+                <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Onslaught" hidden="false" id="6ae2-a765-c76a-23de" defaultAmount="1">
+              <rules>
+                <rule name="Onslaught" id="35d2-fe2b-7a42-3a3" hidden="false">
+                  <description>At the end of the unit&apos;s Turn, any Enemies touching the unit take d6 Damage.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2669-f44d-b02a-fd1d"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7aa7-00e2-7100-ee54"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="All Other Gear" id="6b92-db84-200e-13f6" hidden="false" sortIndex="5">
+          <entryLinks>
+            <entryLink import="true" name="Inheritor Gear" hidden="false" id="d6e4-8509-ff18-1678" type="selectionEntryGroup" targetId="d270-6b3b-910d-d84d"/>
+            <entryLink import="true" name="Martyr Gear" hidden="false" id="817f-dc45-1be1-455a" type="selectionEntryGroup" targetId="3b42-5efe-0950-7425"/>
+            <entryLink import="true" name="Exile Gear" hidden="false" id="08ae-60bd-3630-47ad" type="selectionEntryGroup" targetId="578e-02c6-ac7c-d609"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Offspring" hidden="false" id="bbee-67cf-3686-2289" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="4"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5f30-6327-f5b0-4f84" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Offspring" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="6b94-909d-86cd-4551">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="0cde-02bd-a132-b110" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="24cc-4dcc-e64a-c31c" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="f239-df7c-26a5-43b8" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Fierce" hidden="false" id="7ae7-20b6-e43b-7fc9" type="selectionEntry" targetId="65b8-e423-f62c-76d1"/>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Savage Claws" hidden="false" id="c187-8848-8615-51ac" defaultAmount="1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="37a8-a057-e8a0-2a14"/>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="efbd-0609-9f8a-0edb"/>
+              </constraints>
+              <profiles>
+                <profile name="Savage Claws" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="9918-0616-0532-eee3">
+                  <characteristics>
+                    <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M3x1</characteristic>
+                    <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Keeper" hidden="false" id="6f9f-d8d2-b658-d6d7" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="413e-20da-81b8-f832" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Keeper" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="94fd-954-811a-68a">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="60da-50a7-dcf4-2e43" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="d28f-6fa3-f4d0-9bdf" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="8f18-f616-4552-13cf" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Revive" hidden="false" id="b495-dde0-0420-272a" defaultAmount="1">
+              <rules>
+                <rule name="Revive" id="24d2-e829-8b39-5486" hidden="false">
+                  <description>At the end of the unit&apos;s Turn, any Allies the unit is touching automatically Recover.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3e56-3ebe-805d-c48c"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="5f97-0c12-e7c6-3c6e"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Engineer" hidden="false" id="cbc6-d833-5188-cb24" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="b96-6167-1937-2d09" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Engineer" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="c458-3af9-b3b0-fd5f">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="c9ea-be7a-b879-8afa" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="3f72-2acc-505c-bd6a" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="b273-b9e1-2683-bfd2" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Precise" hidden="false" id="03a6-0959-f662-d163" type="selectionEntry" targetId="16e2-374c-50e2-efc8" defaultAmount="1" collective="true">
+              <costs>
+                <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Informer" hidden="false" id="7324-d185-c31e-31fd" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="7061-72f1-4a5f-2614" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Informer" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="eeb4-60f-4418-f8a0">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="1665-6222-573d-e13c" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="c7f6-bc9a-5fe5-c799" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="e87b-0a39-b048-0e68" hidden="false" sortIndex="1">
+          <entryLinks>
+            <entryLink import="true" name="Nimble" hidden="false" id="e034-0cd2-0d41-9072" type="selectionEntry" targetId="f4ec-ee6a-34ff-5fee" defaultAmount="1" collective="true">
+              <costs>
+                <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Decoy" hidden="false" id="8a0c-2e7c-c577-65cc" defaultAmount="1">
+              <rules>
+                <rule name="Decoy" id="745b-c10a-8ed6-9fcb" hidden="false">
+                  <description>Spend an Action to swap places with an Ally the unit can see.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d91f-e62c-e03e-4dd1"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="15dc-635c-552e-e544"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Anomaly" hidden="false" id="d4ac-2f31-b6d3-eb44" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="5a36-69a9-2bab-f02e" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Anomaly" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="92d5-8720-3951-6b16">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="ae4d-d7f4-be9d-be90" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="307d-1d0d-c407-5a55" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="a273-2212-a86a-ac26" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Smite" hidden="false" id="e325-4b07-90a9-22e2" defaultAmount="1">
+              <rules>
+                <rule name="Smite" id="e0fe-9904-3421-f71" hidden="false">
+                  <description>Once per Turn, as an Action, target an Enemy the unit can see and Roll. If you pass, they take that much Damage. If you fail, you take that much Damage.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="96f7-6903-48a6-07a8"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="06d0-9ef4-1de0-5899"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Kindred" hidden="false" id="2619-856c-a40d-acd4" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="94f7-2fee-a66-abf9" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Kindred" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="7e15-6ae7-f0ac-9977">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="8573-be20-cc73-3f1b" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="2765-6113-620c-d6fb" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="c952-b8a6-e25d-3a4e" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Adrenaline" hidden="false" id="4b37-96e6-a65c-ecec" defaultAmount="1" sortIndex="">
+              <rules>
+                <rule name="Arenaline" id="5acd-35d5-aa83-f562" hidden="false">
+                  <description>The unit may perform a Free Action at the end of its Turn. If the unit does, take 1 Damage.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a42-732f-9751-8f52"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="9387-64cf-3657-de7b"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Unborn" hidden="false" id="6b0d-ac5f-db02-5577" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="ffe0-9131-dab9-4f2" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Unborn" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="51ac-dbbb-118c-85b8">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="858c-bc62-e431-9f73" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="ef91-86ea-e13c-f595" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="eb42-df18-af0c-e0bb" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="b650-0bb5-2df1-6356" defaultAmount="1" sortIndex="">
+              <rules>
+                <rule name="Impact" id="593d-9327-c345-af5c" hidden="false">
+                  <description>Cause 1 Damage to an Enemy when the unit Moves into touch with it.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bd94-305e-4608-72d0"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="8ef4-3cdc-8246-09c1"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Seer" hidden="false" id="27ce-64c2-c790-66bb" sortIndex="1">
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="2"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="daf9-5bd2-ec45-4b91" id="c93b-9577-865d-9c9b" primary="true" name="Follower"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Seer" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="ad24-bf70-89e4-4416">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Base" hidden="false" id="bcf9-dbd7-25bf-a9bf" type="selectionEntryGroup" targetId="933c-8793-cc05-7ad3" sortIndex="0"/>
+        <entryLink import="true" name="Reborn Group" hidden="false" id="6658-1438-178f-2ecf" type="selectionEntryGroup" targetId="5071-0033-ff0a-3b10" sortIndex="2"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Defaults" id="5a3d-fd0a-dfc0-ab6d" hidden="false" sortIndex="1">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Link" hidden="false" id="b59b-3d5a-303b-b8c8" defaultAmount="1" sortIndex="">
+              <rules>
+                <rule name="Link" id="c6e9-bab0-95ea-128a" hidden="false">
+                  <description>At the end of the unit&apos;s Turn, an Ally this unit has Line of Sight to can make a Free Move.</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a666-fa1e-4e59-7498"/>
+                <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="80fe-b90c-a43e-4f8b"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hardened Survivor" hidden="false" id="57a1-2a6b-d97d-b47c">
+      <profiles>
+        <profile name="Hardened Survivor" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="2b36-14aa-2df4-79ba">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tough" id="cde3-da13-adf0-e00a" hidden="false" type="rule" targetId="2b24-88e0-ae4-1b57"/>
+        <infoLink name="Nimble" id="e9c9-e418-0c0e-49d6" hidden="false" type="rule" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="e6b3-1795-28b7-1ad9" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="06ee-9f8e-5463-447b" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Horror Hunter" hidden="false" id="b734-b8ac-48ba-afe8">
+      <profiles>
+        <profile name="Horror Hunter" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="e235-fbf7-46f2-aae4">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Barbed Spear" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="3dd0-28cc-54c5-bcfd">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="5"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Hatred" id="8545-775b-5bad-456f" hidden="false" type="rule" targetId="464f-e32e-8e50-2fc9"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="8297-65f5-f913-f69d" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="ff0c-41fb-701f-cdf3" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c85a-610c-2615-f7d1"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mercenary Captain" hidden="false" id="0b4b-d2ff-73dd-91d9">
+      <profiles>
+        <profile name="Mercenary Captain" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="9868-ea0d-8023-a214">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Repeater" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="3585-d6ab-a6f7-8950">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R3x1</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+        <profile name="Sword" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="496e-353d-b758-cb9b">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M2x1</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="6"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tough" id="7019-9493-c35c-7930" hidden="false" type="rule" targetId="2b24-88e0-ae4-1b57"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="5c45-36e3-41d8-ea04" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="e69e-9935-1f37-1634" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1bc2-6f64-06b6-1805"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mob Vigilante" hidden="false" id="08bd-aa77-ef4e-64a3">
+      <profiles>
+        <profile name="Mob Vigilante" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="01ac-3d0d-a518-7fcf">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Weaponised Tool" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="4574-838f-6c34-03fe">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Hatred" id="1855-573d-621c-0fe5" hidden="false" type="rule" targetId="464f-e32e-8e50-2fc9"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="4b59-270c-4043-9b43" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="5373-00a6-413e-31ce" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Scout" hidden="false" id="c6a3-d220-d063-0874">
+      <profiles>
+        <profile name="Scout" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="7294-fe71-b605-f5bc">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Piercer" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="4d74-faf2-6f4f-859c">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x2</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="3"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Nimble" id="020f-45bc-e494-bfa9" hidden="false" type="rule" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="a917-306f-1f10-2a1a" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="ee9f-3864-63e6-1634" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shadow Stalker" hidden="false" id="0143-38dc-81ad-1070">
+      <profiles>
+        <profile name="Shadow Stalker" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="75c4-adf0-d087-47a4">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Dagger" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="cd05-4e5d-653a-ccca">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="5"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Nimble" id="49da-b9cb-e500-009f" hidden="false" type="rule" targetId="f6de-6b53-6de0-e4cf"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="5ec2-fd62-15fa-c87c" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="d240-b178-538c-212f" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="The Brute" hidden="false" id="0c0c-9f87-23fb-913e">
+      <profiles>
+        <profile name="The Brute" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="b1ae-d14c-1b2a-9cbb">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Slug Launcher" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="18bd-1044-1079-909f">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9">Brutal</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blade" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="0454-c01c-fd5d-7845">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M2x1</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="7"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tough" id="59da-8f0c-2e6b-987d" hidden="false" type="rule" targetId="2b24-88e0-ae4-1b57"/>
+        <infoLink name="Brutal" id="7bb8-4579-b3fc-6625" hidden="false" type="rule" targetId="2539-33a8-1448-0a3b"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="c9cf-cdb1-5e76-3a1f" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="8c54-cb5a-acab-a6d9" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="The Miner" hidden="false" id="66ee-785a-bb7a-f991">
+      <profiles>
+        <profile name="The Miner" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="243f-5710-85b7-23f8">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">5+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="QuakeGun" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="4967-8229-9830-1f54">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R4x1</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9">Penetrate</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hammer" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="d89d-5391-a12a-e123">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x2</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="7"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Tough" id="93bf-3081-d6bd-b0c0" hidden="false" type="rule" targetId="2b24-88e0-ae4-1b57"/>
+        <infoLink name="Penetrate" id="e970-3366-c959-b8da" hidden="false" type="rule" targetId="42c2-8705-11b1-4c11"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="3a7e-f47f-3902-0cde" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="b004-f732-0487-9ede" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="The Raptor" hidden="false" id="7fc2-e2bf-17c8-e51e">
+      <profiles>
+        <profile name="The Raptor" typeId="f77e-6ad7-bf1e-7733" typeName="Model" hidden="false" id="4d25-6421-9aad-b676">
+          <characteristics>
+            <characteristic name="Quality" typeId="d575-8a65-a82d-6a5f">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scatter Rifle" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="a465-82c8-454c-8eb3">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">R1x3</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9">Scatter Matter</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blast Baton" typeId="b448-8404-ef84-ea4d" typeName="Gear" hidden="false" id="a3c3-6334-73b3-dc75">
+          <characteristics>
+            <characteristic name="Dice" typeId="f98d-b070-aef2-3f55">M1x3</characteristic>
+            <characteristic name="Mod" typeId="5cd9-308b-a13b-b6e9">Paralyze</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="10"/>
+      </costs>
+      <infoLinks>
+        <infoLink name="Nimble" id="67ea-8154-d6a3-c065" hidden="false" type="rule" targetId="f6de-6b53-6de0-e4cf"/>
+        <infoLink name="Scatter Matter" id="79ff-0a85-ee85-2d1f" hidden="false" type="rule" targetId="8948-ab92-11a5-cb02"/>
+        <infoLink name="Paralyze" id="23eb-a544-c7e6-f0b3" hidden="false" type="rule" targetId="a153-ae1b-e400-81c8"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Follower" hidden="false" id="8f39-afec-3635-d832" targetId="daf9-5bd2-ec45-4b91" primary="false"/>
+        <categoryLink name="Other Creatures" hidden="false" id="f955-4d1d-e649-fb3f" targetId="d967-db5d-31c1-80c6" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Faction Gear" hidden="false" id="b5d5-d129-b510-f936" sortIndex="1">
+      <entryLinks>
+        <entryLink import="true" name="Reborn Gear" hidden="false" id="c7a0-261a-6782-13f5" type="selectionEntryGroup" targetId="019b-9531-75f8-0dac"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Advancement" id="7a0c-a12d-d96b-6478" hidden="false"/>
+    <selectionEntryGroup name="Reborn Group" id="5071-0033-ff0a-3b10" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Reborn Advancements" hidden="false" id="cd07-e7d2-a892-ae69" type="selectionEntryGroup" targetId="1526-d778-20aa-eba3" collapsible="true" sortIndex="1"/>
+        <entryLink import="true" name="Reborn Gear" hidden="false" id="0a24-c9c8-ead6-013e" type="selectionEntryGroup" targetId="019b-9531-75f8-0dac" sortIndex="2"/>
+        <entryLink import="true" name="All Mods" hidden="false" id="779d-dc04-76d1-d990" type="selectionEntryGroup" targetId="3575-f3ff-8fe0-3e28" sortIndex="3"/>
+        <entryLink import="true" name="Reward Upgrades" hidden="false" id="a0cc-e41c-bf29-e2f2" type="selectionEntryGroup" targetId="0eeb-8c08-7b87-8a63" sortIndex="5"/>
+        <entryLink import="true" name="All advancements" hidden="false" id="e697-c403-38b8-b152" type="selectionEntryGroup" targetId="964d-3cdf-4b18-73f6" sortIndex="6"/>
+        <entryLink import="true" name="Event Effects" hidden="false" id="fb8c-88e4-c9df-e9fc" type="selectionEntryGroup" targetId="9095-8b5e-cb87-3794" sortIndex="7"/>
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="All Other Gear" id="4eee-45af-9583-be4c" hidden="false" sortIndex="4">
+          <entryLinks>
+            <entryLink import="true" name="Inheritor Gear" hidden="false" id="3bb6-a924-9b98-26e6" type="selectionEntryGroup" targetId="d270-6b3b-910d-d84d"/>
+            <entryLink import="true" name="Martyr Gear" hidden="false" id="0de1-6fc6-1523-8966" type="selectionEntryGroup" targetId="3b42-5efe-0950-7425"/>
+            <entryLink import="true" name="Exile Gear" hidden="false" id="4047-baa9-7e80-ab87" type="selectionEntryGroup" targetId="578e-02c6-ac7c-d609"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <entryLinks>
+    <entryLink import="true" name="Assassin" hidden="false" id="c965-992c-7562-e0a8" type="selectionEntry" targetId="be9b-dc81-b7bb-7d9a"/>
+    <entryLink import="true" name="Awoken Flayer" hidden="false" id="2091-2f8a-bee8-a800" type="selectionEntry" targetId="3e75-1575-6f43-7ee9"/>
+    <entryLink import="true" name="Bounty Hunter" hidden="false" id="c5e9-4b74-64fc-b7fb" type="selectionEntry" targetId="7797-bdb7-998e-e172"/>
+    <entryLink import="true" name="Domesticated Spawn" hidden="false" id="016f-9c4d-1e58-41cb" type="selectionEntry" targetId="83d7-2855-91c8-60e4"/>
+    <entryLink import="true" name="Imprinted Forsaken" hidden="false" id="4028-b0b6-cc1f-bedb" type="selectionEntry" targetId="2444-e6ae-a932-b81d"/>
+    <entryLink import="true" name="Penitent Thornguard" hidden="false" id="a59e-e7e2-0e6a-a8ae" type="selectionEntry" targetId="ebe4-61ff-b9b4-9bef"/>
+    <entryLink import="true" name="Steel Ripper" hidden="false" id="d40e-6191-d8f3-1f09" type="selectionEntry" targetId="7e53-b834-09a2-79b9"/>
+    <entryLink import="true" name="Trooper" hidden="false" id="18b2-1a26-ed12-078d" type="selectionEntry" targetId="36ef-fe59-1bec-45f0"/>
+    <entryLink import="true" name="Warped Hound" hidden="false" id="dde4-b0ff-9e74-c148" type="selectionEntry" targetId="4209-8418-b6bf-dea7"/>
+  </entryLinks>
+</catalogue>
