@@ -178,7 +178,11 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Defaults" id="f239-df7c-26a5-43b8" hidden="false" sortIndex="1">
           <entryLinks>
-            <entryLink import="true" name="Fierce" hidden="false" id="7ae7-20b6-e43b-7fc9" type="selectionEntry" targetId="65b8-e423-f62c-76d1"/>
+            <entryLink import="true" name="Fierce" hidden="false" id="7ae7-20b6-e43b-7fc9" type="selectionEntry" targetId="65b8-e423-f62c-76d1" defaultAmount="1">
+              <costs>
+                <cost name="pts" typeId="f447-42b6-b8e6-3b11" value="0"/>
+              </costs>
+            </entryLink>
           </entryLinks>
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Savage Claws" hidden="false" id="c187-8848-8615-51ac" defaultAmount="1">
@@ -365,7 +369,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Defaults" id="c952-b8a6-e25d-3a4e" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Adrenaline" hidden="false" id="4b37-96e6-a65c-ecec" defaultAmount="1" sortIndex="">
+            <selectionEntry type="upgrade" import="true" name="Adrenaline" hidden="false" id="4b37-96e6-a65c-ecec" defaultAmount="1">
               <rules>
                 <rule name="Arenaline" id="5acd-35d5-aa83-f562" hidden="false">
                   <description>The unit may perform a Free Action at the end of its Turn. If the unit does, take 1 Damage.</description>
@@ -401,7 +405,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Defaults" id="eb42-df18-af0c-e0bb" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="b650-0bb5-2df1-6356" defaultAmount="1" sortIndex="">
+            <selectionEntry type="upgrade" import="true" name="Impact" hidden="false" id="b650-0bb5-2df1-6356" defaultAmount="1">
               <rules>
                 <rule name="Impact" id="593d-9327-c345-af5c" hidden="false">
                   <description>Cause 1 Damage to an Enemy when the unit Moves into touch with it.</description>
@@ -437,7 +441,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Defaults" id="5a3d-fd0a-dfc0-ab6d" hidden="false" sortIndex="1">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Link" hidden="false" id="b59b-3d5a-303b-b8c8" defaultAmount="1" sortIndex="">
+            <selectionEntry type="upgrade" import="true" name="Link" hidden="false" id="b59b-3d5a-303b-b8c8" defaultAmount="1">
               <rules>
                 <rule name="Link" id="c6e9-bab0-95ea-128a" hidden="false">
                   <description>At the end of the unit&apos;s Turn, an Ally this unit has Line of Sight to can make a Free Move.</description>
